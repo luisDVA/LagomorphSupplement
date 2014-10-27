@@ -1,0 +1,33 @@
+Column name,Variable name and units,Details,Spatial measure
+inPhylogeny,species name,Binomial name as it appears in the phylogeny,NA
+Genus,Genus name,Following current taxonomy,NA
+RedListStatus,IUCN Red List category,From IUCN Red List Website (accessed Nov. 2013),NA
+EOO,Geographic range size (Extent of occurrence),Obtained from Rondinini et al. (2011),NA
+MaxPrec,Maximum Precipitation (mm),Precipitation of the wettest month,mean value across point occurrences
+MinPrec,Minimum Precipitation (mm),Precipitation of the driest month,mean value across point occurrences
+PrecSeas,Precipitation Seasonality (mm),Standard deviation of the monthly precipitation estimates expressed as a percentage of the mean of those estimates (i.e. the annual mean),mean value across point occurrences
+MeanAnnPrec,Mean Annual Precipitation (mm),Sum of all the monthly precipitation estimates,mean value across point occurrences
+MaxTemp,Maximum Temperature (°C),Maximum temperature of the warmest month,mean value across point occurrences
+MinTemp,Minimum Temperature (°C),Minimum temperature of the coldest month,mean value across point occurrences
+TempSeas,Temperature Seasonality (°C),Standard deviation of the monthly mean temperatures expressed as a percentage of the mean of those temperatures (i.e. the annual mean),mean value across point occurrences
+MeanAnnTemp,Mean Annual Temperature (°C),Mean of all the monthly mean temperatures,mean value across point occurrences
+AnnualEv,Annual Evapotranspiration (mm),Annual reference evapotranspiration calculated using the Hargreaves equation,mean value across point occurrences
+AnnualWB,Annual Water Balance (mm),Calculated by subtracting annual evapotranspiration from mean annual precipitation,mean value across point occurrences
+NDVI,Mean Annual Normalised Difference Vegetation Index ,"Obtained from satellite images (NOAA-AVHRR) over the entire globe. Very low values of NDVI (0.1 and below) correspond to barren areas of rock, sand, or snow. Moderate values represent shrub and grassland (0.2 to 0.3), while high values indicate temperate and tropical rainforests (0.6 to 0.8).",mean value across point occurrences
+SurfRI,Surface Roughness Index,"Difference between the maximum and minimum altitude, based on a mean altitude grid of 30 arc-second resolution.",mean value across point occurrences
+MinElev,Minimum elevation (meters),Minimum value,minimum value across point occurrences
+MaxElev,Maximum elevation (meters),Maximum value ,maximum value across point occurrences
+MeanElev,Mean elevation (meters),Mean value ,mean value across point occurrences
+ClimStab,Climate Stability,Ecoregion-level climate stability from seven Global Circulation Models as calculated by Iwamura et al. (2013) using a KDE approach,mean value across point occurrences
+MammRich,Sympatric mammal species richness,Terrestrial mammal richness in 100km2 grid cells,mean value across point occurrences
+HPD15,Mean Human Population Density (persons/km2),Year 2015 estimates fromNASA Socioeconomic Data and Applications Center (SEDAC),mean value across point occurrences
+Freq,Genus Size,Number of congeners,NA
+MinHPD15,Minimum Human Population Density (persons/km2),Year 2015 estimates fromNASA Socioeconomic Data and Applications Center (SEDAC),minimum value across point occurrences
+pcntConverted,Proportion of occurrence points in converted habitat (0 to 100),converted habitat as defined in Hoekstra et al. (2005),proportion of point occurrences within target grid cells 
+ERisk,Extinction risk (ordinal index 0-4),From IUCN Red List Website (accessed Nov. 2013),NA
+Threatened,Extinction risk (dichotomous 0 or 1),"LC and NT species = 0, VU, EN and CR species = 1",NA
+Dim.1,PCA component 1,PCA axis one (environmental variables),NA
+Dim.2,PCA component 2,PCA axis two (environmental variables),NA
+bsizes,Body size (grams),"Data from Verde Arregoitia et al. (2013), Data Deficient species with no value given data from closest relative",NA
+ED.x,Evolutionary distinctiveness (fair proportions measure),calculated programatically,NA
+ED.y,scaled Evolutionary distinctiveness (fair proportions measure),calculated programatically,NA

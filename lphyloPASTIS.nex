@@ -1,0 +1,187 @@
+#NEXUS
+[R-package APE, Wed Apr 16 15:24:44 2014]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 87;
+	TAXLABELS
+		Brachylagus_idahoensis
+		Bunolagus_monticularis
+		Pentalagus_furnessi
+		Romerolagus_diazi
+		Sylvilagus_aquaticus
+		Sylvilagus_palustris
+		Sylvilagus_bachmani
+		Sylvilagus_mansuetus
+		Sylvilagus_brasiliensis
+		Sylvilagus_varynaensis
+		Sylvilagus_dicei
+		Sylvilagus_insonus
+		Sylvilagus_audubonii
+		Sylvilagus_nuttallii
+		Sylvilagus_robustus
+		Sylvilagus_cognatus
+		Sylvilagus_floridanus
+		Sylvilagus_cunicularius
+		Sylvilagus_graysoni
+		Sylvilagus_obscurus
+		Sylvilagus_transitionalis
+		Caprolagus_hispidus
+		Oryctolagus_cuniculus
+		Lepus_alleni
+		Lepus_californicus
+		Lepus_insularis
+		Lepus_callotis
+		Lepus_flavigularis
+		Lepus_arcticus
+		Lepus_coreanus
+		Lepus_mandshuricus
+		Lepus_othus
+		Lepus_timidus
+		Lepus_capensis
+		Lepus_habessinicus
+		Lepus_castroviejoi
+		Lepus_corsicanus
+		Lepus_tibetanus
+		Lepus_tolai
+		Lepus_starcki
+		Lepus_townsendii
+		Lepus_brachyurus
+		Lepus_nigricollis
+		Lepus_peguensis
+		Lepus_sinensis
+		Lepus_yarkandensis
+		Lepus_comus
+		Lepus_oiostolus
+		Lepus_europaeus
+		Lepus_granatensis
+		Lepus_hainanus
+		Lepus_fagani
+		Lepus_microtis
+		Lepus_saxatilis
+		Lepus_americanus
+		Nesolagus_netscheri
+		Nesolagus_timminsi
+		Poelagus_marjorita
+		Pronolagus_crassicaudatus
+		Pronolagus_randensis
+		Pronolagus_rupestris
+		Pronolagus_saundersiae
+		Ochotona_alpina
+		Ochotona_turuchanensis
+		Ochotona_hoffmanni
+		Ochotona_hyperborea
+		Ochotona_argentata
+		Ochotona_pallasi
+		Ochotona_collaris
+		Ochotona_princeps
+		Ochotona_cansus
+		Ochotona_curzoniae
+		Ochotona_nubrica
+		Ochotona_thibetana
+		Ochotona_dauurica
+		Ochotona_thomasi
+		Ochotona_pusilla
+		Ochotona_erythrotis
+		Ochotona_gloveri
+		Ochotona_forresti
+		Ochotona_rutila
+		Ochotona_macrotis
+		Ochotona_roylei
+		Ochotona_iliensis
+		Ochotona_koslowi
+		Ochotona_ladacensis
+		Ochotona_rufescens
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Brachylagus_idahoensis,
+		2	Bunolagus_monticularis,
+		3	Pentalagus_furnessi,
+		4	Romerolagus_diazi,
+		5	Sylvilagus_aquaticus,
+		6	Sylvilagus_palustris,
+		7	Sylvilagus_bachmani,
+		8	Sylvilagus_mansuetus,
+		9	Sylvilagus_brasiliensis,
+		10	Sylvilagus_varynaensis,
+		11	Sylvilagus_dicei,
+		12	Sylvilagus_insonus,
+		13	Sylvilagus_audubonii,
+		14	Sylvilagus_nuttallii,
+		15	Sylvilagus_robustus,
+		16	Sylvilagus_cognatus,
+		17	Sylvilagus_floridanus,
+		18	Sylvilagus_cunicularius,
+		19	Sylvilagus_graysoni,
+		20	Sylvilagus_obscurus,
+		21	Sylvilagus_transitionalis,
+		22	Caprolagus_hispidus,
+		23	Oryctolagus_cuniculus,
+		24	Lepus_alleni,
+		25	Lepus_californicus,
+		26	Lepus_insularis,
+		27	Lepus_callotis,
+		28	Lepus_flavigularis,
+		29	Lepus_arcticus,
+		30	Lepus_coreanus,
+		31	Lepus_mandshuricus,
+		32	Lepus_othus,
+		33	Lepus_timidus,
+		34	Lepus_capensis,
+		35	Lepus_habessinicus,
+		36	Lepus_castroviejoi,
+		37	Lepus_corsicanus,
+		38	Lepus_tibetanus,
+		39	Lepus_tolai,
+		40	Lepus_starcki,
+		41	Lepus_townsendii,
+		42	Lepus_brachyurus,
+		43	Lepus_nigricollis,
+		44	Lepus_peguensis,
+		45	Lepus_sinensis,
+		46	Lepus_yarkandensis,
+		47	Lepus_comus,
+		48	Lepus_oiostolus,
+		49	Lepus_europaeus,
+		50	Lepus_granatensis,
+		51	Lepus_hainanus,
+		52	Lepus_fagani,
+		53	Lepus_microtis,
+		54	Lepus_saxatilis,
+		55	Lepus_americanus,
+		56	Nesolagus_netscheri,
+		57	Nesolagus_timminsi,
+		58	Poelagus_marjorita,
+		59	Pronolagus_crassicaudatus,
+		60	Pronolagus_randensis,
+		61	Pronolagus_rupestris,
+		62	Pronolagus_saundersiae,
+		63	Ochotona_alpina,
+		64	Ochotona_turuchanensis,
+		65	Ochotona_hoffmanni,
+		66	Ochotona_hyperborea,
+		67	Ochotona_argentata,
+		68	Ochotona_pallasi,
+		69	Ochotona_collaris,
+		70	Ochotona_princeps,
+		71	Ochotona_cansus,
+		72	Ochotona_curzoniae,
+		73	Ochotona_nubrica,
+		74	Ochotona_thibetana,
+		75	Ochotona_dauurica,
+		76	Ochotona_thomasi,
+		77	Ochotona_pusilla,
+		78	Ochotona_erythrotis,
+		79	Ochotona_gloveri,
+		80	Ochotona_forresti,
+		81	Ochotona_rutila,
+		82	Ochotona_macrotis,
+		83	Ochotona_roylei,
+		84	Ochotona_iliensis,
+		85	Ochotona_koslowi,
+		86	Ochotona_ladacensis,
+		87	Ochotona_rufescens
+	;
+	TREE * UNTITLED = [&R] (((1:0.6279069767,(((((2:0.01162790698,3:0.01162790698):0.01162790698,4:0.02325581395):0.1976744186,((((((5:0.01162790698,6:0.01162790698):0.06976744186,((7:0.01162790698,8:0.01162790698):0.04651162791,((9:0.01162790698,10:0.01162790698):0.02325581395,(11:0.01162790698,12:0.01162790698):0.02325581395):0.02325581395):0.02325581395):0.01162790698,13:0.09302325581):0.01162790698,14:0.1046511628):0.01162790698,15:0.1162790698):0.06976744186,(((16:0.01162790698,17:0.01162790698):0.02325581395,(18:0.01162790698,19:0.01162790698):0.02325581395):0.02325581395,(20:0.01162790698,21:0.01162790698):0.04651162791):0.1279069767):0.03488372093):0.02325581395,(22:0.01162790698,23:0.01162790698):0.2325581395):0.3720930233,((((24:0.02325581395,(25:0.01162790698,26:0.01162790698):0.01162790698):0.02325581395,(27:0.01162790698,28:0.01162790698):0.03488372093):0.3023255814,((((((((29:0.04651162791,((30:0.01162790698,31:0.01162790698):0.02325581395,(32:0.01162790698,33:0.01162790698):0.02325581395):0.01162790698):0.08139534884,((34:0.01162790698,35:0.01162790698):0.05813953488,(((36:0.01162790698,37:0.01162790698):0.02325581395,(38:0.01162790698,39:0.01162790698):0.02325581395):0.01162790698,40:0.04651162791):0.02325581395):0.05813953488):0.01162790698,41:0.1395348837):0.01162790698,42:0.1511627907):0.04651162791,(((43:0.01162790698,44:0.01162790698):0.01162790698,45:0.02325581395):0.01162790698,46:0.03488372093):0.1627906977):0.02325581395,(47:0.01162790698,48:0.01162790698):0.2093023256):0.03488372093,(49:0.02325581395,(50:0.01162790698,51:0.01162790698):0.01162790698):0.2325581395):0.03488372093,((52:0.01162790698,53:0.01162790698):0.01162790698,54:0.02325581395):0.2674418605):0.05813953488):0.01162790698,55:0.3604651163):0.2558139535):0.01162790698):0.08139534884,((56:0.01162790698,57:0.01162790698):0.05813953488,(58:0.04651162791,(59:0.03488372093,(60:0.02325581395,(61:0.01162790698,62:0.01162790698):0.01162790698):0.01162790698):0.01162790698):0.02325581395):0.6395348837):0.2906976744,((((((63:0.01162790698,64:0.01162790698):0.02325581395,(65:0.01162790698,66:0.01162790698):0.02325581395):0.02325581395,(67:0.01162790698,68:0.01162790698):0.04651162791):0.02325581395,(69:0.01162790698,70:0.01162790698):0.06976744186):0.08139534884,(71:0.06976744186,(((((72:0.01162790698,73:0.01162790698):0.01162790698,74:0.02325581395):0.01162790698,75:0.03488372093):0.01162790698,76:0.04651162791):0.01162790698,77:0.05813953488):0.01162790698):0.09302325581):0.1162790698,((78:0.01162790698,79:0.01162790698):0.09302325581,(80:0.08139534884,(((81:0.02325581395,(82:0.01162790698,83:0.01162790698):0.01162790698):0.03488372093,((84:0.01162790698,85:0.01162790698):0.01162790698,86:0.02325581395):0.03488372093):0.01162790698,87:0.06976744186):0.01162790698):0.02325581395):0.1744186047):0.7209302326);
+END;
