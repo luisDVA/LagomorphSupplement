@@ -1,5 +1,5 @@
 #NEXUS
-[R-package APE, Wed Apr 16 15:24:44 2014]
+[R-package APE, Sat Jan 10 15:59:10 2015]
 
 BEGIN TAXA;
 	DIMENSIONS NTAX = 87;
@@ -8,19 +8,19 @@ BEGIN TAXA;
 		Bunolagus_monticularis
 		Pentalagus_furnessi
 		Romerolagus_diazi
-		Sylvilagus_aquaticus
-		Sylvilagus_palustris
 		Sylvilagus_bachmani
 		Sylvilagus_mansuetus
-		Sylvilagus_brasiliensis
-		Sylvilagus_varynaensis
+		Sylvilagus_aquaticus
+		Sylvilagus_palustris
 		Sylvilagus_dicei
 		Sylvilagus_insonus
 		Sylvilagus_audubonii
+		Sylvilagus_brasiliensis
+		Sylvilagus_varynaensis
 		Sylvilagus_nuttallii
-		Sylvilagus_robustus
 		Sylvilagus_cognatus
 		Sylvilagus_floridanus
+		Sylvilagus_robustus
 		Sylvilagus_cunicularius
 		Sylvilagus_graysoni
 		Sylvilagus_obscurus
@@ -32,11 +32,7 @@ BEGIN TAXA;
 		Lepus_insularis
 		Lepus_callotis
 		Lepus_flavigularis
-		Lepus_arcticus
-		Lepus_coreanus
-		Lepus_mandshuricus
-		Lepus_othus
-		Lepus_timidus
+		Lepus_brachyurus
 		Lepus_capensis
 		Lepus_habessinicus
 		Lepus_castroviejoi
@@ -44,8 +40,10 @@ BEGIN TAXA;
 		Lepus_tibetanus
 		Lepus_tolai
 		Lepus_starcki
+		Lepus_coreanus
+		Lepus_mandshuricus
+		Lepus_timidus
 		Lepus_townsendii
-		Lepus_brachyurus
 		Lepus_nigricollis
 		Lepus_peguensis
 		Lepus_sinensis
@@ -53,12 +51,14 @@ BEGIN TAXA;
 		Lepus_comus
 		Lepus_oiostolus
 		Lepus_europaeus
-		Lepus_granatensis
 		Lepus_hainanus
 		Lepus_fagani
 		Lepus_microtis
 		Lepus_saxatilis
 		Lepus_americanus
+		Lepus_granatensis
+		Lepus_arcticus
+		Lepus_othus
 		Nesolagus_netscheri
 		Nesolagus_timminsi
 		Poelagus_marjorita
@@ -99,19 +99,19 @@ BEGIN TREES;
 		2	Bunolagus_monticularis,
 		3	Pentalagus_furnessi,
 		4	Romerolagus_diazi,
-		5	Sylvilagus_aquaticus,
-		6	Sylvilagus_palustris,
-		7	Sylvilagus_bachmani,
-		8	Sylvilagus_mansuetus,
-		9	Sylvilagus_brasiliensis,
-		10	Sylvilagus_varynaensis,
-		11	Sylvilagus_dicei,
-		12	Sylvilagus_insonus,
-		13	Sylvilagus_audubonii,
+		5	Sylvilagus_bachmani,
+		6	Sylvilagus_mansuetus,
+		7	Sylvilagus_aquaticus,
+		8	Sylvilagus_palustris,
+		9	Sylvilagus_dicei,
+		10	Sylvilagus_insonus,
+		11	Sylvilagus_audubonii,
+		12	Sylvilagus_brasiliensis,
+		13	Sylvilagus_varynaensis,
 		14	Sylvilagus_nuttallii,
-		15	Sylvilagus_robustus,
-		16	Sylvilagus_cognatus,
-		17	Sylvilagus_floridanus,
+		15	Sylvilagus_cognatus,
+		16	Sylvilagus_floridanus,
+		17	Sylvilagus_robustus,
 		18	Sylvilagus_cunicularius,
 		19	Sylvilagus_graysoni,
 		20	Sylvilagus_obscurus,
@@ -123,33 +123,33 @@ BEGIN TREES;
 		26	Lepus_insularis,
 		27	Lepus_callotis,
 		28	Lepus_flavigularis,
-		29	Lepus_arcticus,
-		30	Lepus_coreanus,
-		31	Lepus_mandshuricus,
-		32	Lepus_othus,
-		33	Lepus_timidus,
-		34	Lepus_capensis,
-		35	Lepus_habessinicus,
-		36	Lepus_castroviejoi,
-		37	Lepus_corsicanus,
-		38	Lepus_tibetanus,
-		39	Lepus_tolai,
-		40	Lepus_starcki,
-		41	Lepus_townsendii,
-		42	Lepus_brachyurus,
-		43	Lepus_nigricollis,
-		44	Lepus_peguensis,
-		45	Lepus_sinensis,
-		46	Lepus_yarkandensis,
-		47	Lepus_comus,
-		48	Lepus_oiostolus,
-		49	Lepus_europaeus,
-		50	Lepus_granatensis,
-		51	Lepus_hainanus,
-		52	Lepus_fagani,
-		53	Lepus_microtis,
-		54	Lepus_saxatilis,
-		55	Lepus_americanus,
+		29	Lepus_brachyurus,
+		30	Lepus_capensis,
+		31	Lepus_habessinicus,
+		32	Lepus_castroviejoi,
+		33	Lepus_corsicanus,
+		34	Lepus_tibetanus,
+		35	Lepus_tolai,
+		36	Lepus_starcki,
+		37	Lepus_coreanus,
+		38	Lepus_mandshuricus,
+		39	Lepus_timidus,
+		40	Lepus_townsendii,
+		41	Lepus_nigricollis,
+		42	Lepus_peguensis,
+		43	Lepus_sinensis,
+		44	Lepus_yarkandensis,
+		45	Lepus_comus,
+		46	Lepus_oiostolus,
+		47	Lepus_europaeus,
+		48	Lepus_hainanus,
+		49	Lepus_fagani,
+		50	Lepus_microtis,
+		51	Lepus_saxatilis,
+		52	Lepus_americanus,
+		53	Lepus_granatensis,
+		54	Lepus_arcticus,
+		55	Lepus_othus,
 		56	Nesolagus_netscheri,
 		57	Nesolagus_timminsi,
 		58	Poelagus_marjorita,
@@ -183,5 +183,5 @@ BEGIN TREES;
 		86	Ochotona_ladacensis,
 		87	Ochotona_rufescens
 	;
-	TREE * UNTITLED = [&R] (((1:0.6279069767,(((((2:0.01162790698,3:0.01162790698):0.01162790698,4:0.02325581395):0.1976744186,((((((5:0.01162790698,6:0.01162790698):0.06976744186,((7:0.01162790698,8:0.01162790698):0.04651162791,((9:0.01162790698,10:0.01162790698):0.02325581395,(11:0.01162790698,12:0.01162790698):0.02325581395):0.02325581395):0.02325581395):0.01162790698,13:0.09302325581):0.01162790698,14:0.1046511628):0.01162790698,15:0.1162790698):0.06976744186,(((16:0.01162790698,17:0.01162790698):0.02325581395,(18:0.01162790698,19:0.01162790698):0.02325581395):0.02325581395,(20:0.01162790698,21:0.01162790698):0.04651162791):0.1279069767):0.03488372093):0.02325581395,(22:0.01162790698,23:0.01162790698):0.2325581395):0.3720930233,((((24:0.02325581395,(25:0.01162790698,26:0.01162790698):0.01162790698):0.02325581395,(27:0.01162790698,28:0.01162790698):0.03488372093):0.3023255814,((((((((29:0.04651162791,((30:0.01162790698,31:0.01162790698):0.02325581395,(32:0.01162790698,33:0.01162790698):0.02325581395):0.01162790698):0.08139534884,((34:0.01162790698,35:0.01162790698):0.05813953488,(((36:0.01162790698,37:0.01162790698):0.02325581395,(38:0.01162790698,39:0.01162790698):0.02325581395):0.01162790698,40:0.04651162791):0.02325581395):0.05813953488):0.01162790698,41:0.1395348837):0.01162790698,42:0.1511627907):0.04651162791,(((43:0.01162790698,44:0.01162790698):0.01162790698,45:0.02325581395):0.01162790698,46:0.03488372093):0.1627906977):0.02325581395,(47:0.01162790698,48:0.01162790698):0.2093023256):0.03488372093,(49:0.02325581395,(50:0.01162790698,51:0.01162790698):0.01162790698):0.2325581395):0.03488372093,((52:0.01162790698,53:0.01162790698):0.01162790698,54:0.02325581395):0.2674418605):0.05813953488):0.01162790698,55:0.3604651163):0.2558139535):0.01162790698):0.08139534884,((56:0.01162790698,57:0.01162790698):0.05813953488,(58:0.04651162791,(59:0.03488372093,(60:0.02325581395,(61:0.01162790698,62:0.01162790698):0.01162790698):0.01162790698):0.01162790698):0.02325581395):0.6395348837):0.2906976744,((((((63:0.01162790698,64:0.01162790698):0.02325581395,(65:0.01162790698,66:0.01162790698):0.02325581395):0.02325581395,(67:0.01162790698,68:0.01162790698):0.04651162791):0.02325581395,(69:0.01162790698,70:0.01162790698):0.06976744186):0.08139534884,(71:0.06976744186,(((((72:0.01162790698,73:0.01162790698):0.01162790698,74:0.02325581395):0.01162790698,75:0.03488372093):0.01162790698,76:0.04651162791):0.01162790698,77:0.05813953488):0.01162790698):0.09302325581):0.1162790698,((78:0.01162790698,79:0.01162790698):0.09302325581,(80:0.08139534884,(((81:0.02325581395,(82:0.01162790698,83:0.01162790698):0.01162790698):0.03488372093,((84:0.01162790698,85:0.01162790698):0.01162790698,86:0.02325581395):0.03488372093):0.01162790698,87:0.06976744186):0.01162790698):0.02325581395):0.1744186047):0.7209302326);
+	TREE * UNTITLED = [&R] (((1:25.638739,(((((2:13.423463,3:13.423463):4.096038,4:17.519502):1.707009,(((((5:3.217495,6:3.217495):8.11832,((7:6.968199,8:6.968199):2.599136,(9:3.075577,10:3.075577):6.491758):1.768481):0.7,(11:4.121719,(12:2.644284,13:2.644284):1.477435):7.914097):2.3014,14:14.337216):1.836008,((((15:1.921982,16:1.921982):2.435592,17:4.357574):3.814094,(18:3.217495,19:3.217495):4.954172):4.687597,(20:1.74357,21:1.74357):11.115695):3.313959):3.053287):1.541327,(22:14.323632,23:14.323632):6.444206):0.57265,((((((24:3.189112,(25:1.096827,26:1.096827):2.092284):4.20687,(27:4.64479,28:4.64479):2.751192):8.339016,(((((29:9.016387,(((((30:3.10396,31:3.10396):1.825342,((32:2.248395,33:2.248395):1.397897,(34:1.838858,35:1.838858):1.807434):1.283011):1.081091,36:6.010394):0.33904,((37:0.399399,38:0.399399):0.921119,39:1.320518):5.028916):1.340522,40:7.689956):1.326431):1.663488,(((41:2.305162,42:2.305162):4.03454,43:6.339702):2.074544,44:8.414247):2.265628):1.340848,(45:1.603679,46:1.603679):10.417044):0.710178,(47:9.707226,48:9.707226):3.023675):1.888204,((49:2.201764,50:2.201764):3.588511,51:5.790275):8.82883):1.115893):1.389044,52:17.124041):3.062862,53:20.1869):0.5,(54:0.677154,55:0.677154):20.009749):0.653585):4.298251):4.18308,((56:7.05335,57:7.05335):20.489846,(58:9.920509,(59:6.072085,(60:4.504899,(61:3.491195,62:3.491195):1.013704):1.567186):3.848424):17.622687):2.278624):20.37818,((((((63:1.520555,64:1.520555):3.654402,(65:1.630035,66:1.630035):3.544922):1.889881,(67:0.519016,68:0.519016):6.545822):3.08639,(69:5.565233,70:5.565233):4.585995):4.018828,(71:11.167973,(((((72:0.940717,73:0.940717):3.493898,74:4.434615):1.912183,75:6.346798):1.600233,76:7.947031):1.877785,77:9.824816):1.343157):3.002083):1.360825,((78:11.657592,79:11.657591):2.458738,(80:13.7911,(((81:6.325511,(82:3.241824,83:3.241824):3.083686):2.449108,((84:4.257555,85:4.257555):2.680232,86:6.937788):1.836831):1.545138,87:10.319756):3.471344):0.32523):1.414551):34.669119);
 END;
