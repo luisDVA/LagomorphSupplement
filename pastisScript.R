@@ -22,7 +22,7 @@ library (pastis)
 # aligned sequences using Jalview (Muscle alignment, nucleotide preset)
 
 # read inputs
-ge13phylo <- read.tree ("ge13full.txt") # from Ge et al. (2013)
+ge13phylo <- read.tree ("ge13full.nex") # from Ge et al. (2013)
 taxonClade <- read.table ("taxonClade.txt", header=TRUE)
 # references for clade assignment provided in "cladePlacement.pdf")
 # sequence alignment file and missing clade file must be in workspace folder
@@ -62,4 +62,7 @@ pastis_main (LagPast, output_file="lagomPastB.nex")
 # post-processing:
 # dated the consensus tree using PATHd8 and the same dating information in Ge et al. (2013)
 # read consensus tree into R
+# multi2di to randomly resolve combs
+# compute branch lengths using compute.brtime (method="Grafen")
+
 # final output provided as "lphyloPASTIS.nex"

@@ -9,10 +9,9 @@ MultivariateAnalyses.R ,Multivariate Analyses,R code for all multivariate analys
 lphyloST.nex,redated Lagomorph supertree,"Extracted from the supertree provided by Rolland et al. (2014) after redating previous supertrees (Bininda-Emonds et al. 2007, Fritz et al. 2009) using the dates proposed in Meredith et al. (2011)."
 lphyloPASTIS.nex,"completed Lagomorph phylogeny (three mitochondrial genes, PASTIS completed)",Maximum clade credibility tree generated in MrBayes from PASTIS output using the Ge et al. (2013) tree as a constraint.
 fullDataset.csv,Complete dataset,Legends for the column names are in the Data Definition table.
-ge13full.txt,Ge et al. (2013) consensus tree (Lagomorph phylogeny),Consensus tree from Ge et al. (2013)
+ge13full.nex,Ge et al. (2013) consensus tree (Lagomorph phylogeny),Consensus tree from Ge et al. (2013)
 environmentalData.csv,Transformed environmental data,Variable descriptions are the in data definition table. Climate and topography data used in PCA
 cladePlacement.pdf,References for taxonomic clade assignment for PASTIS,Rationale for clade assignment 
 DataDefinition.csv,Data Definition,"Names, units and descriptions of variables used in all analyses."
 missingClades.txt,Missing clade constraints for PASTIS,List of inclusions/exclusions for taxa with no sequence data and no sister species in the constraint tree.
 metadata.csv,Description of files in fileset,file descriptions and titles
-BAMMcontrolFile,settings for running the BAMM program,rjMCMC settings and priors
